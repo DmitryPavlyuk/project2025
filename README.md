@@ -1,4 +1,4 @@
-# Artificial Intelligence Group Project 2025
+# Artificial Intelligence Group Project 2025 - mini project
 Develop a notebook-based app – a dashboard with actual weather data
 Tools:
 * GitHub – management and version control
