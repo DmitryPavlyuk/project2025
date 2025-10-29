@@ -1,0 +1,45 @@
+# --- Python bytecode / caches ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pytest_cache/
+*.coverage
+.coverage*
+htmlcov/
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+
+# --- Editor / IDE ---
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+
+# --- Env/config (keep examples only) ---
+.env
+.env.*
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+
+# --- Logs / temp / cache ---
+*.log
+*.tmp
+.cache/
+
+# debug JSON exports
+json_debug_files/
+!json_debug_files/.gitkeep
+
+# Google/Firebase secrets (DO NOT COMMIT) 
+secrets/*
+!secrets/.gitkeep 
+
+# OAuth files
+secrets/client_secret.json
+secrets/.oauth_token.json
